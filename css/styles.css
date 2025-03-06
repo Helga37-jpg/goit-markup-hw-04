@@ -171,6 +171,15 @@ h1,h2,h3,h4,h5,h6,p {
     color: #fff;
     line-height: 1.07;
     padding: 188px 0;
+    max-width: 1440px;
+    background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/bg.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 .hero-business {
     letter-spacing: 0.02em;
