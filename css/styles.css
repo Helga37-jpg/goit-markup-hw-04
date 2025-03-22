@@ -412,7 +412,9 @@ h1,h2,h3,h4,h5,h6,p {
     border-top: none;
     margin-bottom: 8px;
     padding: 32px 16px;
+    overflow: hidden;
 }
+
 .team-member-title {
     text-align: center;
     margin-bottom: 8px;
@@ -434,25 +436,26 @@ h1,h2,h3,h4,h5,h6,p {
 .footer {
     background-color: #2e2f42;
     display: flex;
-    align-items: center;
-    justify-content:flex-start;
-    gap: 100px;
-    padding: 40px;
-    }
-.footer-list {
-    display: flex;
-    justify-content: space-between;
-    /* Логотип слева, соцсети справа */
     align-items: flex-start;
-    /* Выравнивание по центру */
-    max-width: 1200px;
-    /* Ограничиваем ширину */
-    width: 100%;
-    margin: 0 auto;
-    /* Центрируем футер */
-    padding: 20px;
-    /* Добавляем отступы */
-    max-width: 600px;
+    justify-content:flex-start;
+    gap: 80px;
+    padding: 10px;
+}
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    /* Выравнивает элементы по базовой линии */
+    justify-content: flex-start;
+    /* Элементы идут слева направо */
+    gap: 24px;
+    /* Расстояние между блоками */
+    /* Внутренний отступ */
+    padding: 80px ;
+}
+.footer-left{
+    max-width: 400px;
+    margin-right: 120px;
+    margin-left: 156px;
 }
 
 
@@ -483,23 +486,21 @@ h1,h2,h3,h4,h5,h6,p {
 }
 .my-text {
     color: #FFFFFF;
-    display: flex;
-    justify-content: center;
+    margin-bottom: 16px;
 }
 .footer-logo,
 .footer-span {
     display: inline-block;
 }
-.social-media {
+.footer-right {
+
     text-align: flex-start;
-    margin-left: 100px;
     flex-direction: column;
 }
 .social-list {
     display: flex;
     gap: 16px;
-    /* Отступ между иконками */
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0;
     list-style: none;
 }
@@ -513,14 +514,15 @@ h1,h2,h3,h4,h5,h6,p {
     width: 40px;
     height: 40px;
     background-color: #4C5FD5;
-    /* Цвет фона иконок */
     border-radius: 50%;
+    transition: background-color 0.3s ease-in-out;
 }
-
+.link-social:hover{
+    background-color: #FFFFFF;
+}
 .social-icon {
     width: 24px;
     height: 19.5px;
     fill: white;
-    /* Цвет иконок */
 }
 
