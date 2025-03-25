@@ -442,13 +442,13 @@ h1,h2,h3,h4,h5,h6,p {
     padding: 10px;
     width: 1440px auto;
     height: 312px;
+    
 }
 .footer-container {
     display: flex;
     align-items: baseline;
     justify-content: flex-start;
     gap: 24px;
-    padding: 80px ;
     
 }
 .footer-left{
@@ -456,8 +456,7 @@ h1,h2,h3,h4,h5,h6,p {
     margin-right: 120px;
     align-items: flex-start;
     width: 200px;
-    height: 50px
-    border: 2px solid black;
+    height: 50px;
     line-height: 50px;
 }
 .footer-logo {
