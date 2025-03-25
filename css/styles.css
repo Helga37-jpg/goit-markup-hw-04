@@ -440,25 +440,26 @@ h1,h2,h3,h4,h5,h6,p {
     justify-content:flex-start;
     gap: 80px;
     padding: 10px;
+    width: 1440px auto;
+    height: 312px;
 }
 .footer-container {
     display: flex;
     align-items: baseline;
-    /* Выравнивает элементы по базовой линии */
     justify-content: flex-start;
-    /* Элементы идут слева направо */
     gap: 24px;
-    /* Расстояние между блоками */
-    /* Внутренний отступ */
     padding: 80px ;
+    
 }
 .footer-left{
-    max-width: 400px;
+    max-width: 100%;
     margin-right: 120px;
-    margin-left: 156px;
+    align-items: flex-start;
+    width: 200px;
+    height: 50px
+    border: 2px solid black;
+    line-height: 50px;
 }
-
-
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -476,26 +477,14 @@ h1,h2,h3,h4,h5,h6,p {
     color: #f4f4fd;
 }
 
-/* Текст в футере */
-.footer-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--light-text, #f4f4fd);
-    text-align: left;
-}
-.my-text {
-    color: #FFFFFF;
-    margin-bottom: 16px;
-}
-.footer-logo,
-.footer-span {
-    display: inline-block;
-}
 .footer-right {
 
     text-align: flex-start;
     flex-direction: column;
+}
+.my-text {
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 .social-list {
     display: flex;
@@ -504,8 +493,22 @@ h1,h2,h3,h4,h5,h6,p {
     padding: 0;
     list-style: none;
 }
+
 .social-item {
     display: flex;
+}
+/* Текст в футере */
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-text, #f4f4fd);
+    text-align: left;
+}
+
+.footer-logo,
+.footer-span {
+    display: inline-block;
 }
 .link-social {
     display: flex;
