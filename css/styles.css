@@ -554,6 +554,10 @@ h1,h2,h3,h4,h5,h6,p {
 .my-text {
     color: #FFFFFF;
     margin-bottom: 16px;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
 }
 .social-list {
     display: flex;
@@ -571,10 +575,11 @@ h1,h2,h3,h4,h5,h6,p {
 .footer-text {
     font-size: 16px;
     font-weight: 500px;
-    line-height: 1.5px;
-    letter-spacing: 0.02em;
     color: var(--light-text, #f4f4fd);
     text-align: flex-start;
+    max-width: 100%;
+    letter-spacing: 0.02em;
+
 }
 
 .footer-logo,
