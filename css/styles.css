@@ -355,12 +355,8 @@ h1,h2,h3,h4,h5,h6,p {
 
 
 }
-
-.link-social:hover {
-    background-color: #404bbf;
-}
-
-.link-social:focus {
+.social-link:hover,
+.social-link:focus {
     background-color: #404bbf;
 }
 
@@ -373,7 +369,7 @@ h1,h2,h3,h4,h5,h6,p {
     background-color: #FFFFFF;
 }
 
-}
+
 
 /*конец 3-й секции*/
 
