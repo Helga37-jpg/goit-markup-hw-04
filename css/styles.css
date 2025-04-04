@@ -355,8 +355,10 @@ h1,h2,h3,h4,h5,h6,p {
 
 
 }
-.social-link:hover,
-.social-link:focus {
+
+
+.link-social:hover,
+.link-social:focus {
     background-color: #404bbf;
 }
 
