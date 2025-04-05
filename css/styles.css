@@ -580,7 +580,10 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 0.02em;
 
 }
-
+.social-list-footer {
+    display: flex;
+    gap: 16px;
+}
 
 .social-item {
     display: flex;
