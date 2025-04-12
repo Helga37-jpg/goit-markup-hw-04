@@ -223,6 +223,72 @@ h1,h2,h3,h4,h5,h6,p {
     background-color: #404BBF;
 
 }
+/* Модальное окно */
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(46, 47, 66, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.modal {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    color: #2E2F42;
+}
+
+.modal h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.modal-form input,
+.modal-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.modal-send {
+    background-color: #4D5AE5;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.modal-send:hover {
+    background-color: #404BBF;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #2E2F42;
+    cursor: pointer;
+}
 /* конец 1-й секция */
 
 
@@ -304,6 +370,7 @@ h1,h2,h3,h4,h5,h6,p {
 .team-list {
     display: flex;
     list-style: none;
+    gap:24px;
 
 }
 
@@ -313,10 +380,13 @@ h1,h2,h3,h4,h5,h6,p {
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
 
 .team-img {
     display: block;
+
+    
 }
 .team-member-title {
     font-weight: 500;
@@ -340,6 +410,7 @@ h1,h2,h3,h4,h5,h6,p {
 .social-item {
     width: 40px;
     height: 40px;
+    
 
 }
 
@@ -369,6 +440,7 @@ h1,h2,h3,h4,h5,h6,p {
 .team-bio {
     padding: 32px 0;
     background-color: #FFFFFF;
+    
 }
 
 
@@ -591,6 +663,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 /* Текст в футере */
 .footer-text {
+
     font-size: 16px;
     font-weight: 500px;
     color: var(--light-text, #f4f4fd);
