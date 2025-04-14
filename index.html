@@ -49,33 +49,7 @@
     <main>
         <!-- 1 -->
         <section class="hero">
-            <!-- Modal (пока скрыто) -->
-            <div class="backdrop is-hidden">
-                <div class="modal">
-                    <button class="modal-close">&times;</button>
-                    <h2>Leave your contacts and we will call you back</h2>
-                    <form class="modal-form">
-                        <label>
-                            <input type="text" name="name" placeholder="Name" required />
-                        </label>
-                        <label>
-                            <input type="tel" name="phone" placeholder="Phone" required />
-                        </label>
-                        <label>
-                            <input type="email" name="email" placeholder="Email" required />
-                        </label>
-                        <label>
-                            <textarea name="message" rows="4" placeholder="Comment"></textarea>
-                        </label>
-                        <label class="modal-policy">
-                            <input type="checkbox" required />
-                            I agree with the terms and conditions
-                        </label>
-                        <button type="submit" class="modal-send">Send</button>
-                    </form>
-                </div>
-            </div>
-
+            
             <div class="container">
                 <h1 class="hero-title">Effective Solutions <br> for Your Business</h1>
                 <button class="hero-button">Order Service</button>
@@ -430,7 +404,16 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop">
+        <div class="modal">
+            <button 
+              type="button"
+              class="modal-close"
+              >
+              x
+            </button>
+        </div>
+    </div>
     <!-- футер конец -->
 </body>
-
 </html>
